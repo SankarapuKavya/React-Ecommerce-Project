@@ -1,16 +1,83 @@
-# React + Vite
+# React E-Commerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive e-commerce web application built using React.js. The application provides separate interfaces for users and administrators to manage products and orders.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### User
+- User registration and login
+- Profile picture upload
+- View available products
+- Search products by name
+- Filter products by category
+- View individual product details
+- View order history
+- Logout functionality
 
-## React Compiler
+### Admin
+- Admin login
+- Admin dashboard
+- Manage products
+- View added products
+- Manage customer orders
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Axios
+- React Router DOM
+- JSON Server
+- React Toastify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/SankarapuKavya/React-Ecommerce-Project.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd React-Ecommerce-Project
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the React application
+
+```bash
+npm run dev
+```
+
+### 5. Start JSON Server
+
+Open another terminal in the project folder and run:
+
+```bash
+npm run server
+```
+
+The React application and JSON Server must both be running.
+
+## Application URLs
+
+- Frontend: http://localhost:5173
+- JSON Server: http://localhost:3000
+
+## GitHub Repository
+
+[React E-Commerce Project](https://github.com/SankarapuKavya/React-Ecommerce-Project)
+
+## Author
+
+**Sankarapu Kavya**
+
